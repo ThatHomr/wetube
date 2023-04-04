@@ -7,7 +7,7 @@
     "url": "git+https://github.com/ThatHomr/wetube.git"
   },
   "scripts": {
-    "win": "node index.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "author": "Park Sung-Jun",
   "license": "MIT",
@@ -16,6 +16,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
-    "@babel/preset-env": "^7.21.4"
-  }
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.4",
+    "nodemon": "^2.0.22"
+  },
+  "type" : "module"
 }
