@@ -12,7 +12,8 @@
   "author": "Park Sung-Jun",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
@@ -20,5 +21,5 @@
     "@babel/preset-env": "^7.21.4",
     "nodemon": "^2.0.22"
   },
-  "type" : "module"
+  "type": "module"
 }
